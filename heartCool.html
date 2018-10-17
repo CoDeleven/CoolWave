@@ -3,17 +3,22 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title></title>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/heart_wave_cool.js"></script>
+    <style>
+        div {
+            transform: scale(0.3, 0.3) translate(-1150px, -1100px);
+        }
+    </style>
 </head>
 
-<body>
-    <div style="width:500px; height: 500px;overflow: hidden;">
-        <canvas id="myCanvas3" width="500px" height="500px" style="position:absolute"></canvas>
-        <canvas id="myCanvas" width="500px" height="500px" style="position:absolute"></canvas>
-        <canvas id="myCanvas2" width="500px" height="500px" style="position:absolute;"></canvas>
-
+<body style="width:100%;">
+    <div style="width:1024px; height: 1024px;overflow: hidden;position: absolute;">
+        <canvas id="myCanvas3" width="1024px" height="1024px" style="position:absolute;"></canvas>
+        <canvas id="myCanvas" width="1024px" height="1024px" style="position:absolute"></canvas>
+        <canvas id="myCanvas2" width="1024px" height="1024px" style="position:absolute;"></canvas>
     </div>
 </body>
 
