@@ -24,7 +24,7 @@ var waveLineShadowColor = "rgba(44, 62, 80,0.4)";
 var fontStyle = "75px SimHei";
 var fontStyle2 = "55px SimHei";
 // 要显示的字
-var core = "瘟猪和骚鹿在一起";
+var core = "翁🐖和骚🦌在一起";
 var core1 = "第 137 天";
 var core2 = "{hh}时{MM}分{ss}秒";
 
